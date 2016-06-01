@@ -1,0 +1,37 @@
+@mixin roundy ($color-one, $font-size, $margin) {
+  font-size: $font-size;
+  color: $color-one;
+  margin: $margin * 2;
+}
+@mixin green_links {
+    a {
+        color: red;
+          &:hover {
+            color: green;
+          }
+    }
+}
+
+.parrafo1 p {
+
+    @include roundy(green, 80px, 2px) ;
+
+}
+.parrafo2 p {
+
+  @include roundy(red, 20px, 3px);
+  @include green_links;
+
+}
+h1 {
+  @include roundy(black, 50px, 5px);
+}
+%comentarios {
+  font-size: 50px;
+  color: blue;
+  border: 1px red;
+}
+.comentarios2 {
+  @extend %comentarios;
+
+}
