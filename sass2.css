@@ -1,0 +1,24 @@
+div {
+  height: 100px;
+  width: 255px;
+  border: 1px solid black; }
+
+.color {
+  background: orange; }
+
+.red, .blue, .green {
+  float: left; }
+
+.red {
+  background: red;
+  width: 255px; }
+
+.blue {
+  background: blue;
+  width: 0px; }
+
+.green {
+  background: green;
+  width: 165px; }
+
+/*# sourceMappingURL=sass2.css.map */
