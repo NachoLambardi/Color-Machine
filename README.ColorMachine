@@ -1,4 +1,3 @@
-# Color-Machine is code where you Refactoring the code by using functions and variables.
-Allows you to know the percentage of 3 colors, appearing in the screen. You can choose any color you like and it'll appear,
-how is compose. The code start with color blue, so it will show all blue.
-You can take any color and see the differents results.
+# Color-Machine: Refactoring the code by using functions and variables.
+Allows you to know the percentage of colors, appearing in the screen.
+You can choose any color you like and it'll appear,how is compose showing differents results.
