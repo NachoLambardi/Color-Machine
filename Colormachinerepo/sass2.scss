@@ -1,7 +1,4 @@
-$color: blue;
-@function multiple($multiple) {
-  @return $multiple * 2;
-}
+$color: orange;
 @function pxify($value) {
   @return unquote($value + "px")
 }
@@ -13,7 +10,7 @@ div {
 }
 .color {
   background: $color;
-  font-size: multiple(5px);
+
 }
 .red, .blue, .green {
   float: left;

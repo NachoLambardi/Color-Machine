@@ -4,25 +4,24 @@ div {
   border: 1px solid black; }
 
 .color {
-  background: blue;
-  font-size: 10px; }
+  background: orange; }
 
 .red, .blue, .green {
   float: left; }
 
 .red {
   background: red;
-  width: 0px; }
+  width: 255px; }
 
 .blue {
   background: blue;
-  width: 255px; }
+  width: 0px; }
 
 .green {
   background: green;
-  width: 0px; }
+  width: 165px; }
 
 p {
-  font-size: 100px; }
+  font-size: multiple(50px); }
 
 /*# sourceMappingURL=sass2.css.map */
